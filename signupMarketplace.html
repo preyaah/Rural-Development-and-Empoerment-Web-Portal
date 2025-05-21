@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Essentials Made Easy | NukkadMart</title>
+  <link rel="icon" type="image/x-icon"
+    href="images/icon.png" />
+  <link rel="stylesheet" href="signupMarketplace.css">
+</head>
+<body>
+  <div class="cont">
+    <h1>WELCOME</h1>
+    <div class="container">
+      <h2>Choose Account Type</h2>
+      <div class="account-type">
+        <div class="option selected" id="userOption">
+          <img src="user.png" alt="User Icon">
+          <p>User</p>
+        </div>
+        <div class="option" id="shopkeeperOption">
+          <img src="farmer2.png" alt="Shopkeeper Icon">
+          <p>Farmer</p>
+        </div>
+      </div>
+      <p class="welcome" id="welcomeText">Hello new user! </p>
+      <p class="instructions">Please fill out the form below to sign up.</p>
+      <!-- User Signup Form -->
+      <form id="userForm" class="form active">
+        <label>Name</label>
+        <input type="text" placeholder="Enter Name" required>
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter Contact Number" required>
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" required>
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" required>
+        <button type="submit" class="signup-btn">Sign Up</button>
+      </form>
+      
+      <!-- Shopkeeper Signup Form -->
+      <form id="shopkeeperForm" class="form">
+        <label>Name</label>
+        <input type="text" placeholder="Enter Name" required>
+        <label>Shop Name</label>
+        <input type="text" placeholder="Enter Shop Name" required>
+        <label>Email</label>
+        <input type="email" placeholder="Enter Email">
+        <label>Password</label>
+        <input type="password" placeholder="Enter Password" required>
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm Password" required>
+        <label>Shop Address</label>
+        <input type="text" placeholder="Enter Shop Address" required>
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter Phone Number " pattern="\d{10}"  required>
+        <label>Upload Shop Documents</label>
+        <input type="file" required>
+        <button type="submit" class="signup-btn">Sign Up</button>
+      </form>
+
+      <p class="login-link">Already have an account? <a href="index.html">Login</a></p>
+    </div>
+  </div>
+  
+  <script src="signupMarketplace.js"></script>
+</body>
+</html>

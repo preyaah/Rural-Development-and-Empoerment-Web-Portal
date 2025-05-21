@@ -1,0 +1,52 @@
+#marketplace {
+    margin: 80px auto;
+    padding: 40px 0;
+    background-color: #f9f9f9;
+}
+
+.marketplace-content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.price {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--primary);
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-secondary {
+    background: var(--secondary);
+    color: var(--primary);
+}
